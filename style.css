@@ -1,5 +1,5 @@
 body{
-    background-color: azure;
+    background: linear-gradient(225deg, #abc8de 0.000%, #c7c9d8 16.667%, #e5cccf 33.333%, #ffd3c7 50.000%, #ffdbc2 66.667%, #ffe4c0 83.333%, #ffedc3 100.000%);
 }
 
 h1{
@@ -10,7 +10,7 @@ h1{
 form{
     display: flex;
     flex-direction: column;
-    background-color: blueviolet;
+    background-color: rgb(204, 150, 177);
     padding: 20px;
     color: azure;
     border-radius: 15px;
@@ -20,7 +20,7 @@ form{
     max-width: 460px;
     margin: auto;
 
-    box-shadow: 20px 20px 20px rgba(143, 94, 233, 0.5);
+    box-shadow: 20px 20px 20px rgba(236, 164, 212, 0.5);
 }
 
 span{
@@ -50,10 +50,10 @@ button{
     padding: 10px 35px;
     border-radius: 15px;
     margin-top: 10px;
-    background-color: rgb(137, 65, 204);
-    color: aliceblue;
+    background-color: #b8d8f0;
+    
 }
 
 button:hover{
-    background-color: rgb(158, 201, 226);
+    background-color: rgb(238, 193, 218);
 }

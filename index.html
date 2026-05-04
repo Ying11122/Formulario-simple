@@ -21,37 +21,38 @@ A partir de que funcione, dale un estilo con CSS: colores, tipo de fuente, distr
     <form action="recibido.html" method="get">
         <label for="nombre">Nombre</label>
         <input type="text" name="nombre" id="nombre">
-        <br><br>
+        
 
-        <label for="apellidos">*Apellidos</label>
+        <label for="apellidos"><span>*</span>Apellidos</label>
         <input type="text" name="apellidos" id="apellidos" required>
-        <br><br>
+        
 
         <label for="edad">Edad</label>
         <input type="number" name="edad" id="edad" min="18" max="120" placeholder="Mínimo 18, máximo 120">
-        <br><br>
+        
 
-        <label for="email">*Email</label>
+        <label for="email"><span>*</span>Email</label>
         <input type="email" name="email" id="email" required>
-        <br><br>
+        
 
         <label for="fecha">Fecha</label>
         <input type="date" name="fecha" id="fecha">
-        <br><br>
+        
 
-        <label for="asunto">*Asunto</label>
+        <label for="asunto"><span>*</span>Asunto</label>
         <input type="text" name="asunto" id="asunto" required>
-        <br><br>
+        
         
         <label for="comentario">Comentarios</label>
-        <textarea name="comentario" id="comentario" maxlength="150 caracteres"></textarea> <small>Máx. 150 caracteres</small>
+        <textarea name="comentario" id="comentario" maxlength="150 caracteres" placeholder="Escribe aquí tu comentario"></textarea> <small>Máx. 150 caracteres</small>
+        <br>
         
-        <br><br>
-        <small>*Campos requeridos</small>
-        <br><br>
-        <button type="submit" onclick="alert('Mensaje enviado!')">Enviar</button>
-
-        <input type="reset" value="Borrar todo">
+        <small><span>*</span>Campos requeridos</small>
+        <div class="botones">
+            <button type="submit" onclick="alert('Mensaje enviado!')">Enviar</button>
+            <br>
+            <button type="reset" value="Borrar todo">Borrar todo</button>
+        </div>
 
     </form>
 

@@ -2,6 +2,7 @@ body{
     background: linear-gradient(225deg, #abc8de 0.000%, #c7c9d8 16.667%, #e5cccf 33.333%, #ffd3c7 50.000%, #ffdbc2 66.667%, #ffe4c0 83.333%, #ffedc3 100.000%);
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
 }
 
 h1{
@@ -51,11 +52,16 @@ textarea{
 button{
     padding: 10px 35px;
     border-radius: 15px;
-    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #b8d8f0;
     
 }
 
 button:hover{
     background-color: rgb(238, 193, 218);
+}
+
+.comentario{
+    display: flex;
+    justify-content: right;
 }
